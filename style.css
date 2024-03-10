@@ -1,0 +1,369 @@
+@font-face {
+  font-family: "Cirka";
+  src: url("Cirka-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "arizona-light";
+  src: url("ABCArizonaText-Light-Trial.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "arizona-thin";
+  src: url("ABCArizonaText-Thin-Trial.woff2") format("woff2");
+}
+
+* {
+  margin: 5px;
+}
+
+.title {
+  font-size: 6.7vw;
+  color: rgb(182, 182, 182);
+  font-family: arizona-thin;
+  text-align: center;
+  line-height: 5.9vw;
+  background-image: linear-gradient(180deg, #e6e6e6, #9c9c9c);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.info {
+  font-family: arizona-thin;
+  display: inline-block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 200;
+  padding-top: 2rem;
+  padding-left: 2%;
+  background-image: linear-gradient(180deg, #818181, #dfdfdf);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+sup {
+  font-size: 1rem;
+  margin: 0;
+  line-height: 0;
+}
+.info p {
+  font-family: arizona-thin;
+  display: inline-block;
+  width: 31%;
+  background-image: linear-gradient(180deg, #9d9d9d, #ebebeb);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-family: arizona-thin;
+  font-size: 6.7vw;
+  text-align: center;
+  font-weight: 200;
+  padding-top: 10%;
+  background-image: linear-gradient(180deg, #878787, rgb(161, 161, 161), #dfdfdf);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.icon {
+  position: absolute;
+  top: 60%;
+  width: 2%;
+  opacity: 60%;
+  left: 47%;
+}
+.icon2 {
+  position: absolute;
+  top: 50%;
+  width: 2%;
+  left: 2%;
+  opacity: 80%;
+}
+
+.icon3 {
+  position: absolute;
+  top: 50%;
+  width: 3%;
+  right: 2%;
+  rotate: 60%;
+  opacity: 60%;
+}
+
+.icon5 {
+  position: absolute;
+  top: 48%;
+  width: 4%;
+  left: 22%;
+  rotate: 60%;
+  opacity: 70%;
+}
+
+.icon4 {
+  position: absolute;
+  top: 40%;
+  width: 4%;
+  left: 70%;
+  rotate: 50%;
+  opacity: 70%;
+  filter: grayscale(1);
+}
+
+main {
+  padding-top: 10rem;
+  font-family: arizona-light;
+  width: 50%;
+  text-align: left;
+  margin: auto;
+  background-image: linear-gradient(
+    180deg,
+    #686868,
+    #cbcbcb,
+    #535353,
+    #cbcbcb,
+    #535353
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.sub {
+  font-family: arizona-thin;
+  font-size: 1.2rem;
+  padding-bottom: 0rem;
+  padding-top: 2rem;
+  line-height: 1.4rem;
+  text-align: center;
+}
+
+.para {
+  padding-top: 0.8rem;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.footnote {
+  font-family: Cirka;
+  font-size: 0.7rem;
+  width: 17%;
+  position: absolute;
+  left: 3%;
+  line-height: .9rem;
+  background-image: linear-gradient(
+    180deg,
+    #686868,
+    #535353
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.full-screen {
+  width: 100%;
+  background-color: blue;
+}
+
+
+nav {
+  position: sticky;
+  top: -7%;
+  margin-top: 10%;
+  z-index: 999;
+}
+li {
+  list-style-type: none;
+}
+
+.side-image {
+  position: relative;
+  clear: right;
+  float: right;
+  width: 33%;
+  margin-right: calc(-20vw - 3rem);
+  height: auto;
+  opacity: 60%;
+  height: auto;
+  filter: grayscale(1);
+}
+
+
+.image-caption {
+  font-family: Cirka;
+  font-size: 0.7rem;
+  width: 16%;
+  position: absolute;
+  right: 2%;
+  line-height: .7rem;
+  background-image: linear-gradient(
+    180deg,
+    #686868,
+    #535353
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+
+
+
+.side-image:hover {
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+
+/* WEBSITE MEDIA QUERIES */
+
+/* styles for 'mobile', screen sizes up to 779px, should covers 'mobile' and 'tablet' */
+/* style this one first and then use the subsequent ones in a cascading way (from general to specific) */
+
+@media (max-width: 779px) {
+  /* your 'mobile' overriding css properties here */
+
+  .side-image {
+    position: relative;
+    /* left: -1%; */
+    width: 100%;
+    margin-right: 0;
+    height: auto;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+  }
+
+  * {
+    overflow-x: hidden;
+  }
+
+ 
+  main {
+    width: 100%;
+    height: auto;
+  }
+
+  sup {
+    font-size: .5rem;
+  }
+
+  .footnote {
+    width: 100%;
+    height: auto;
+    display: none;
+    position: relative;
+   width: 100%;
+   margin: .5rem 0;
+   background-color: lightgreen;
+   line-height: .7rem;
+  }
+
+
+/* Show footnotes when sup element is clicked */
+.toggle-footnote {
+cursor: pointer;
+}
+
+.footnote.collapsed {
+display: block;
+}
+
+  
+
+  .para {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+
+  .info {
+    font-family: arizona-thin;
+    width: 100%;
+    font-size: .7rem;
+    font-weight: 200;
+    top: 0;
+  }
+
+  .info p {
+    font-family: arizona-thin;
+    width: 30%;
+    font-weight: 200;
+    font-size: .7rem;
+  }
+
+  .title {
+    font-family: arizona-light;
+    width: 100%;
+    font-size: 2.2rem;
+    padding-bottom: 10rem;
+    line-height: 2rem;
+  }
+
+  .subtitle {
+    font-family: arizona-light;
+    width: 100%;
+    font-size: 2.2rem;
+    line-height: 2rem;
+    padding-top: 15rem;
+  }
+  /* utility classes, mobile */
+
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  sup {
+    font-size: .8rem;
+    margin: 0;
+    line-height: 0;
+    font-weight: 700;
+  }
+}
+
+/* use this query to apply style changes to smaller smartphones sizes (like an iPhone 5S or SE 2016), max size of 339px */
+
+@media (max-width: 339px) {
+  /* your overriding css properties here */
+}
+
+/* use this query to apply style changes for 'mobile' screen sizes that are flipped in 'landscape' mode */
+
+@media (max-width: 779px) and (orientation: landscape) {
+  /* your overriding css properties here */
+}
+
+/* use this query to apply style for 'small' desktop screens */
+
+@media (min-width: 780px) and (max-width: 992px) {
+
+
+  /* your overriding css properties here */
+}
